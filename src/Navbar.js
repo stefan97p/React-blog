@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+import logo from './img/type.png';
 
 const Navbar = () => {
     return (  
         <nav className="navbar">
-            <h1>Bloggerz</h1>
+            <img src= {logo} alt="logo" width={64} height={64} />
+            <h1>Bloggerz</h1>           
             <div className="links">
                 <Link to="/">Home</Link>
                 <Link to="/create" style={{
